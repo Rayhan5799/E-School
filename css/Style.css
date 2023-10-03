@@ -1,0 +1,259 @@
+/******************
+global css start
+******************/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a, a:hover{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+.bg-body-tertiary{
+    --bs-bg-opacity: 0;
+}
+/******************
+global css end
+******************/
+
+
+/******* header section css start *****/
+.header-section{
+    background: #F0FFF0 !important;
+    padding: 15px;
+
+}
+.header-section .nav-link{
+    padding-right: 35px !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+.header-section .nav-link:hover{
+    color: #21B573;
+}
+.header-section .btn-success {
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 30px;
+    border-radius: 50px;
+    margin-left: 35px;
+    background: #21B573;
+    border: #21B573;
+    font-size: 16px;
+    transition: .5s;
+}
+.header-section .btn-success:hover{
+    font-family: 'Roboto', sans-serif;
+    background: #56548c;
+    border-color: #56548c;
+    transition: .5s;
+}
+/******* header section css end *****/
+
+
+/******* banner section css start *****/
+.banner-section{ 
+    background: #F0FFF0;
+    padding: 60px 0px 60px;
+}
+.banner-section .contant{
+    padding-right: 220px;
+}
+.banner-section  .contant h6{
+    color: #FD511A;
+    size: 16px;
+    font-weight: 400;
+
+
+}
+.banner-section  .contant h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    padding-top: 18px;
+}
+.banner-section  .contant h1 span{
+    color: #21B573;
+}
+.banner-section  .contant p{
+    color: #000;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 700;
+    padding-top: 26px;
+}
+.banner-section  .contant .btn-success {
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+    background: #21B573;
+    border: 2px solid #000;
+    font-size: 16px;
+    transition: .5s;
+}
+.banner-section  .contant .btn-success:hover{
+    font-family: 'Roboto', sans-serif;
+    background: #56548c;
+    border-color:2px solid #000;
+    transition: .5s;
+}
+.banner-section .banner-p{
+    width: 100%;
+}
+.banner-section .banner-p img{
+width: 100%;
+}
+/******* banner section css end *****/
+
+
+/******* feature section css start *****/
+.feature-section{
+    background: #F8FFFB;
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature-section .content-box{
+    text-align: center;
+    padding: 60px 0px 38px;
+}
+.feature-section .content-box:hover{
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 20px
+}
+.feature-section .content-box img{
+    width: 66px;
+    height: 85px;
+}
+.feature-section .content-box h4{
+    color:#413960;
+    font-size: 24px;
+    padding-top: 30px;
+    font-weight: 500;
+    
+}
+.feature-section .content-box p{
+    color: #585859;
+}
+
+/******* feature section css end *****/
+
+
+/******* course section css start *****/
+.courses-section{
+    width: 100%;
+    background: #fff;
+}
+.courses-section h2{
+    color: #413960;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.courses-section .courses-inner{
+    width: 100%;
+    padding: 100px 26px;
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 30px;
+}
+.courses-section .courses-inner .c-header{}
+.courses-section .courses-inner .c-header img{
+    width: 100%;
+}
+.courses-section .courses-inner .c-body{}
+.courses-section .courses-inner .c-body h3{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 30px;
+    
+}
+.courses-section .courses-inner .c-body p{
+    color: #585859;
+    font-size: 16px;
+    padding-top: 12px;
+
+}
+.courses-section .courses-inner .c-body .btn-success {
+    font-family: 'Roboto', sans-serif;
+    padding: 6px 25px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background: #21B573;
+    border: 1px solid #21B573;
+    font-size: 16px;
+    transition: .5s;
+}
+.courses-section .courses-inner .c-body .btn-success:hover{
+    font-family: 'Roboto', sans-serif;
+    background: #56548c;
+    border:1px solid #56548c;
+    transition: .5s;
+}
+.courses-section .courses-inner .c-footer{
+    padding: 40px 0px 10px;
+}
+.courses-section .courses-inner .c-footer img{}
+.courses-section .courses-inner .c-footer span{
+   color: #585859;
+   font-size: 16px;
+   vertical-align: middle;
+}
+
+/******* course section css end *****/
+
+
+/******* course section css end *****/
+.customer-section{
+    width: 100%;
+    padding: 130px 0px 100px;
+}
+.customer-section h2{
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 90px;
+}
+.customer-section img{
+    height: 120px;
+    width: 120px;
+    margin-left: 270px;
+}
+.customer-section span{
+    font-size: 16px;
+    line-height: 36px;
+    color: #000;
+}
+/******* course section css end *****/
+
+
+/******* footer section css start *****/
+.footer-section{
+    background: #282531;
+    width: 100%;
+    color: #fff;
+    padding: 110px 0px 10px;
+    margin-top: 30px;
+}
+.footer-section .title p{
+    padding-right: 150px;
+}
+.footer-section .p{ 
+    text-align: center;   
+    padding-top: 70px;
+}
+/******* footer section css end *****/
