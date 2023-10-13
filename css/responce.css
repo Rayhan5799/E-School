@@ -1,0 +1,193 @@
+/******************
+global css start
+******************/
+
+
+
+/******************
+global css End
+******************/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .header-section {
+        background: #F0FFF0 !important;
+        padding: 15px 0px;
+    }
+    .header-section .navbar-toggler{
+      box-shadow: none;
+      border: 0;
+    }
+    .header-section .navbar-toggler i{
+      color: #56548c;
+    }
+    .header-section .btn-success {
+      margin: 0;
+      border-radius: 0;
+      padding: 0;
+      color: var(--bs-navbar-active-color);
+      background: none;
+      font-size: 16px;
+      font-weight: 500;
+  }
+    .banner-section .contant {
+       padding: 0px;
+    }
+    .banner-section  .contant h1 {
+        font-size: 33px;
+        padding-top: 13px;
+    }
+    .banner-section  .contant p {
+        line-height: 30px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    .banner-section  .contant .btn-success {
+        padding: 8px 16px;
+        margin-top: 10px;
+    }
+    .banner-section .banner-p {
+        margin-top: 60px;
+    }
+    .feature-section .content-box {
+        box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.10);
+        border-radius: 20px;
+    }
+    .feature-section .side{
+      width: 50%;
+      margin-bottom: 40px;
+    }
+    .feature-section .content-box img {
+      width: 30%;
+      height: 60%;
+  }
+  .feature-section .content-box h4 {
+    font-size: 20px;
+  }
+  .feature-section .content-box p {
+    color: #585859;
+    font-size: 14px;
+  }
+  .courses-section .middle {
+    width: 90%;
+    margin: auto;
+  }
+  .courses-section .margin {
+    margin-top: 30px; 
+  } 
+  .courses-section .courses-inner {
+    width: 100%;
+    padding: 36px 26px;
+    margin-bottom: 20px;
+}
+.courses-section .courses-inner .c-body h3 {
+  font-size: 22px;
+}
+.courses-section .courses-inner .c-body p {
+  font-size: 15x;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+.courses-section .courses-inner .c-body .btn-success {
+  padding: 6px 16px;
+  font-size: 15px;
+}
+.courses-section .courses-inner .c-footer .icon{
+  margin-bottom: 10px;
+}
+.courses-section .courses-inner .c-footer span {
+  font-size: 15px;
+}
+.customer-section {
+  padding: 60px 0px 30px;
+}
+.customer-section h2 {
+  font-size: 32px;
+  padding-bottom: 50px;
+}
+.customer-section .side{
+  width: 36%;
+}
+.customer-section .side .img-mid{
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+.customer-section img {
+  margin-left: 0px;
+}
+.customer-section .side-bar{
+  width: 64%;
+  padding: 0px 10px 0px 8px;
+}
+.footer-section {
+  padding: 30px 0px 10px;
+  margin-top: 10px;
+}
+.footer-section .title p {
+  padding-right: 42px;
+  padding-bottom: 30px;
+}
+.footer-section .p {
+  padding-top: 40px;
+}
+  }
